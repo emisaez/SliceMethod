@@ -4,7 +4,7 @@ namespace SliceMethod
 {
     public static class Extensions
     {
-        public static string Slice(string str, int startIndex, int endIndex = 0)
+        public static string Slice(this string str, int startIndex, int endIndex = 0)
         {
             if (startIndex < 0) 
             {
